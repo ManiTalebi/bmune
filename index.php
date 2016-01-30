@@ -61,7 +61,8 @@
                 <p>
                   BMUNE is a science-based, all natural, liquid dietary supplement
                   that is designed to maintain a healthy and balanced immune system*.
-                  The BMUNE formulation is patented and is based on years of scientific
+                  The BMUNE formulation is patented (US patent Numbers 8,425,922
+                  and 9,180,184) and is based on years of scientific
                   research on the synergy between the active ingredients, i.e. the two vitamins,
                   the Flavonoid, and a vegetable oil that is high in omega 3 and 6 fatty acids.
                   This formulation is presented in the form of a ready to drink liquid with the
