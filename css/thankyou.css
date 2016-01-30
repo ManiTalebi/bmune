@@ -1,0 +1,63 @@
+/* FONTS */ 
+@font-face {
+   font-family: myFont;
+   src: url(../fonts/BebasNeue.otf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+    font-family: mySecondFontSec;
+    src: url(../fonts/montserrat-light-webfont.eot);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(../fonts/bebasneuebook-webfont.eot);
+}
+@font-face {
+    font-family: myThirdFontSec;
+    src: url(../fonts/BebasNeueBook.otf);
+}
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 70px 0;
+}
+.pad-sectiontop {
+  padding-top:50px;
+}
+.pad-sectiontopsec {
+  padding-top:20px;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* MAIN HOLDER TEXT AND IMAGE */
+#textHolderThank {
+margin: 0 auto;
+display: block;
+text-align: center;
+margin-top:100px;
+font-family: myFont;
+}
+
+#textHolderThank h1{
+font-size:60px;
+margin-top:30px;
+}
+
+#textHolderThank p{
+font-family:'mySecondFont', 'mySecondFontSec';
+margin-top:10px;
+}
+
+#textHolderThank img {
+width:200px;
+}

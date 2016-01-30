@@ -1,0 +1,329 @@
+/* FONTS */
+@font-face {
+   font-family: myFont;
+   src: url(../fonts/BebasNeue.otf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+    font-family: mySecondFontSec;
+    src: url(../fonts/montserrat-light-webfont.eot);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(../fonts/bebasneuebook-webfont.eot);
+}
+@font-face {
+    font-family: myThirdFontSec;
+    src: url(../fonts/BebasNeueBook.otf);
+}
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 70px 0;
+}
+.pad-sectiontop {
+  padding-top:50px;
+}
+.pad-sectiontopsec {
+  padding-top:20px;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR
+--------------------
+-------------------- */
+.navbar-default{
+border-bottom: 2px solid #003e7e;
+}
+.nav li{
+font-family: 'mySecondFont', 'mySecondFontSec';
+font-size:13px;
+}
+.navbar-default .navbar-collapse ul li a{
+color:#444445;
+}
+.navbar-default .navbar-collapse ul li a:hover{
+color: #54B948;
+}
+.navbarmain{
+background: url(../images/gray.jpg);
+}
+
+/* FIRST SECTION HOME
+----------------------
+---------------------- */
+#freeShipping{
+font-family:myFont;
+font-size:15px;
+color:black;
+letter-spacing:0.3px;
+}
+#myTesting{
+float:right;
+margin-top: -348px;
+position: relative;
+}
+#home {
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#howWorks{
+text-align: center;
+font-family: myFont;
+font-size:75px;
+}
+#disclaimer{
+font-size:10px;
+color:#CCC;
+}
+.orderButton{
+font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size:15px;
+display: block;
+max-width:140px;
+height: 40px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.readBmuneButton{
+font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size:15px;
+display: block;
+max-width:140px;
+height: 40px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#downPage{
+position: absolute;
+width: 100%;
+bottom: 20px;
+text-align: center;
+
+}
+#downPage h2{
+font-size:25px;
+font-family: myFont;
+text-align:center;
+color:white;
+padding:15px;
+}
+
+/* SECOND SECTION HOME
+----------------------
+---------------------- */
+#about{
+}
+.holderBox{
+display: table;
+margin-left:auto;
+margin-right:auto;
+}
+
+.holderBox img{
+display: table;
+margin-left:auto;
+margin-right:auto;
+}
+.holderBoxSec{
+display: table;
+margin-left:auto;
+margin-right:auto;
+}
+
+.holderBox p {
+text-align:justify;
+}
+
+.arrowStep{
+margin-left:auto;
+margin-right:auto;
+max-width: 40px;
+margin-top:30px;
+}
+#buyStep{
+margin-left:auto;
+margin-right:auto;
+display: table;
+}
+#buyStep h2{
+color:#002768;
+font-family: myFont;
+font-size:30px;
+}
+
+#buyStep a:hover{
+text-decoration: none;
+color:red;
+}
+
+/* THRID SECTION HOME
+----------------------
+---------------------- */
+#services{
+background-color: #002768;
+}
+#headlineOrder{
+color:white;
+font-family: myFont;
+font-size:55px;
+margin-top:50px;
+}
+#paragraphOrder{
+color:white;
+padding-top:20px;
+font-family: 'mySecondFont', 'mySecondFontSec';
+font-size: 15px;
+}
+#beimmunePic{
+max-width: 500px;
+margin-top:-20px;
+}
+#holderButtons{
+display:grid;
+}
+#buyButton{
+display: inline-block;
+margin-top:30px;
+margin-right:10px;
+}
+
+#readButton{
+display: inline-block;
+border: 2px solid white;
+padding: 0px 35px;
+margin-top:30px;
+}
+#buyButton h3{
+color:white;
+font-size:18px;
+font-family: myFont;
+}
+
+#readButton h3{
+color:white;
+font-size:20px;
+font-family: myFont;
+}
+#orderBmune{
+margin-top:20px;
+}
+/* FOURTH(FOOTER) SECTION HOME
+----------------------
+---------------------- */
+footer{
+background-color:#262b2b;
+border-top: 1px solid white;
+}
+
+.textFooter{
+color:white;
+font-family:'myThirdFont', 'myThirdFontSec';
+font-size:20px;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+#imageHolder{
+margin-left:auto;
+margin-right:auto;
+display: table;
+}
+
+#imageHolder a{
+padding:3px;
+}
+
+#footerHolder{
+background-color:#202020;
+color:white;
+text-align:center;
+font-family:'myThirdFont', 'myThirdFontSec';
+font-size: 20px;
+padding-top:5px;
+}
+
+#bottomText{
+color:#575757;
+margin-bottom:5px;
+text-align:center;
+font-size:10px;
+}
+/* MOBILE SETTINGS
+--------------------
+-------------------- */
+@media screen and (max-width: 500px) {
+     #home {
+ background:none;
+    }
+
+    #logoTop{
+    display:none;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    #myTesting img{
+    max-width: 400px;
+    }
+    #myTesting{
+    margin-top: -316px;
+    }
+}
+@media screen and (max-width: 690px) {
+    #myTesting img{
+    max-width: 350px;
+    }
+    #myTesting{
+    margin-top: -276.5px;
+    }
+}
+@media screen and (max-width: 615px) {
+    #myTesting img{
+    max-width: 300px;
+    }
+    #myTesting{
+    margin-top: -236.5px;
+    }
+}
+@media screen and (max-width: 550px) {
+    #myTesting{
+    display: none;
+    }
+}

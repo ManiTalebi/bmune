@@ -1,0 +1,240 @@
+/* FONTS */
+@font-face {
+   font-family: myFont;
+   src: url(../fonts/BebasNeue.otf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+    font-family: mySecondFontSec;
+    src: url(../fonts/montserrat-light-webfont.eot);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(../fonts/bebasneuebook-webfont.eot);
+}
+@font-face {
+    font-family: myThirdFontSec;
+    src: url(../fonts/BebasNeueBook.otf);
+}
+
+/* general styles */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.holderBox{
+    display: table;
+    margin-left:auto;
+    margin-right:auto;
+}
+.holderBox img{
+    display: table;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.holderBox h2{
+    font-family: myFont;
+    font-size: 40px;
+}
+
+/* padded section */
+.pad-section {
+    padding: 70px 0;
+}
+
+.pad-sectiontop {
+    padding-top:50px;
+}
+.pad-sectiontopsec {
+    padding-top:20px;
+}
+.pad-section img {
+    width: 100%;
+}
+.margin-top{
+    margin-top: 30px;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR
+--------------------
+-------------------- */
+.navbar-default{
+    border-bottom: 2px solid #003e7e;
+}
+.nav li{
+    font-family: 'mySecondFont', 'mySecondFontSec';
+    font-size:13px;
+}
+.navbar-default .navbar-collapse ul li a{
+    color:#444445;
+}
+.navbar-default .navbar-collapse ul li a:hover{
+    color: #54B948;
+}
+.navbarmain{
+    background: url(../images/gray.jpg);
+}
+
+/* FIRST SECTION HOME
+----------------------
+---------------------- */
+
+#orderContainer {
+    margin-bottom:30px;
+}
+
+.demo {
+    width:450px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+
+.demo img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.holderText h2{
+    font-size:45px;
+}
+.holderText h3{
+    font-family: 'mySecondFont', 'mySecondFontSec';
+    font-size: 25px;
+}
+.holderText p{
+    font-family: 'mySecondFont', 'mySecondFontSec';
+    font-size: 14px;
+}
+.myListBuy li{
+    display:block;
+}
+#priceMobileScreen{
+    font-size:35px;
+    margin-top:-10px;
+    font-family:'mySecondFont', 'mySecondFontSec';
+    color:red;
+}
+#priceFullScreen {
+    font-size:35px;
+    display:inline;
+    color:red;
+}
+
+#mobileScreenHide{
+    display:none;
+}
+#testId{
+    margin-top:-25px;
+}
+
+@media screen and (max-width: 500px) {
+    .holderBoxMobile{
+    display: table;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    }
+     .demo {
+    max-width:200px;
+    margin-bottom:30px;
+    }
+    .holderText h2{
+    font-size:40px;
+    }
+    .holderText h3{
+    font-size:20px;
+    }
+    .holderText p{
+    font-size:15px;
+    }
+    #testdone{
+    margin-top:-30px;
+    }
+    #textOrder{
+    font-size:10px;
+    }
+    #fullScreenHide{
+    display:none;
+    }
+    #mobileScreenHide{
+    display:inline;
+    }
+    #singleUnit{
+    margin-top:-5px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .holderRight {
+    padding-top:0px;
+    }
+}
+/* FOURTH(FOOTER) SECTION HOME
+----------------------
+---------------------- */
+@media screen and (min-width: 1800px) {
+    footer {
+    background-color:#262b2b;
+    border-top: 1px solid white;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    }
+}
+footer{
+    background-color:#262b2b;
+    border-top: 1px solid white;
+}
+
+.textFooter{
+    color:white;
+    font-family:'myThirdFont', 'myThirdFontSec';
+    letter-spacing:1.5px;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+#imageHolder{
+    margin-left:auto;
+    margin-right:auto;
+    display: table;
+}
+#imageHolder a{
+padding:3px;
+}
+
+#footerHolder{
+    background-color:#202020;
+    color:white;
+    text-align:center;
+    font-family:'myThirdFont', 'myThirdFontSec';
+    font-size: 20px;
+    padding-top:5px;
+}
+#bottomText{
+    color:#575757;
+    margin-bottom:5px;
+    text-align:center;
+    font-size:10px;
+}
