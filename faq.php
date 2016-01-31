@@ -55,7 +55,7 @@
             </div>
             <div id="collapseTwo" class="panel-collapse collapse textFont">
                 <div class="panel-body">
-                   BMUNE is the result of many years of scientific immunological research that led to the discovery of the synergy between vitamins A and E and a flavonoid enhancing the immune response in preclinical studies.
+                   BMUNE is the result of many years of scientific immunological research that led to the discovery of the synergy between vitamins A and E and a Catechin enhancing the immune response in preclinical studies.
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
             </div>
             <div id="collapseFive" class="panel-collapse collapse textFont">
                 <div class="panel-body">
-                    There are no studies that show that multivitamins enhance immunity. But there are many studies that show single vitamins such as vitamins A or E enhance immune responses. We made the exciting scientific discovery that when we mixed vitamins A and E with a flavonoid, in special formulation, we synergistically enhanced the immune response.
+                    There are no studies that show that multivitamins enhance immunity. But there are many studies that show single vitamins such as vitamins A or E enhance immune responses. We made the exciting scientific discovery that when we mixed vitamins A and E with a Catechin, in special formulation, we synergistically enhanced the immune response.
                 </div>
             </div>
         </div>

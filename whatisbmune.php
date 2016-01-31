@@ -44,7 +44,7 @@
                   system*. The BMUNE formulation is patented (US patent Numbers
                   8,425,922 and 9,180,184) and is based on
                   years of scientific research on the synergy between the active
-                  ingredients, i.e. the two vitamins, the Flavonoid, and a
+                  ingredients, i.e. the two vitamins, the Catechin, and a
                   vegetable oil that is high in omega 3 and 6 fatty acids. This
                   formulation is presented in the form of a ready to drink liquid
                   with the amazing taste of natural chocolate-mint & orange. This
@@ -108,7 +108,7 @@
                 <p>
                   BMUNE is the result of years of scientific immunological research,
                   which led to the discovery of the synergy between vitamins A, E
-                  and a flavonoid enhancing the immune response. This patented
+                  and a Catechin enhancing the immune response. This patented
                   formulation, which presents the active ingredients in droplet
                   sizes of below 5 micrometers, enhances the uptake of its
                   components by cells of the immune system. This results in
