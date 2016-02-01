@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
+<head profile="http://www.bmune.com">
+  <link rel="icon"
+      type="image/png"
+      href="/images/favicon-bmune.png" />
   <meta charset="utf-8" />
   <meta name="author" content="" />
-  <title>BE IMMUNE | BE HEALTHY</title>
+  <title>BMUNE | The Supplement That Kickstarts Your Immune System</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <!-- attach CSS styles -->
